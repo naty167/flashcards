@@ -3,16 +3,45 @@
     padding: 0;
 }
 
-.cabecalho{
+.cabecalho {
     padding: 15px 25PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(48, 81, 226);
 }
 
-.cartao{
+.cartao {
     width: 260px;
     height: 280px;
 }
 
-.cartao-imagem{
+.cartao-imagem {
     width: 100%;
     
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(32, 144, 189);
+}
+
+main {
+    flex: 1;
+}
+.cabecalho-link {
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+}
+
+footer{
+background-color: rgb(48, 81, 226);
+padding: 15px 25px;
+color: white;
 }
